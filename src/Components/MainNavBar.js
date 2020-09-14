@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import Men from './Men';
-import Ladies from './Ladies';
-import Template from './Template';
+import Men from './MenuItems/Men';
+import Ladies from './MenuItems/Ladies';
+import Template from './MenuItems/Template';
 
 const MainNavBar = () => {
   return (
@@ -57,7 +57,7 @@ const MainNavBar = () => {
               </li>
               <li className="nav-item dropdown menu-large">
                 <Link
-                  href="#"
+                  to="#"
                   data-toggle="dropdown"
                   data-hover="dropdown"
                   data-delay="200"
