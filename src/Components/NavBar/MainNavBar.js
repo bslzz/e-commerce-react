@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import Men from './MenuItems/Men';
-import Ladies from './MenuItems/Ladies';
-import Template from './MenuItems/Template';
+import Men from '../MenuItems/Men';
+import Ladies from '../MenuItems/Ladies';
+import Template from '../MenuItems/Template';
 
 const MainNavBar = () => {
   return (
